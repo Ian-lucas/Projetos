@@ -1,0 +1,28 @@
+#include<iostream>
+#include<string>
+#include<stdlib.h>
+
+using namespace std;
+
+    int main(void){
+    
+    string text1;
+    string text2;
+    
+    cout<<"Olá qual o seu nome?"<<endl;
+    getline(cin, text1);
+    system("clear||cls");
+    cout<<"Olá " + text1;
+    cout<<" você está bem?"<<endl;
+    getline(cin, text2);
+    system("clear||cls");
+        if(text2 == "sim"){
+            
+            cout<<"Graças a Deus!";
+        }
+        else{
+            cout<<"Meu Deus..."<<endl;
+            cout<<"E agora Derick?";
+        }
+    
+    }
